@@ -7,4 +7,4 @@
 - [Sample Dataset](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/heart_database/sample.csv)
 
 ### Database instance
-- Amazon RDS PostgreSQL DB instance ![alt tag]()
+- Amazon RDS PostgreSQL DB instance ![alt tag](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/heart_database/DBInstance.PNG)
