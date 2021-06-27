@@ -4,26 +4,18 @@
 
 ## Data Cleansing in ETL Tools
 
- - This project will be an introduction ot the EXTRACT, TRANSFORM, and LOAD process
+ - This project will be an introduction ot the EXTRACT, TRANSFORM, and LOAD process.
 
- - Using the ETL process to clean data. The ETL function created collects and cleans cardio data.
+ - Using the ETL process to clean data. The ETL function will be created to collect and cleans cardio data.
 
- - Pandas will be used to clean the data and perform an exploratory analysis.
+ - Pandas will be used to clean the data and perform exploratory analysis.
 
 
 ## Database
 
- - PostgreSQL
+ - PostgreSQL is the database we will intend to use, and we will integrate Amazon RDS (Relational Database Service) web service , Heart Dataset , Sample Dataset
 
- -  Amazon RDS (Relational Database Service) web service
- 
- - Heart Dataset
-
- - Sample Dataset
-
- - Database instance
-
- - Amazon RDS PostgreSQL DB instance
+ Database instance , Amazon RDS PostgreSQL DB instance to display the data.
 
 
 ## Machine Learning
