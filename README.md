@@ -13,3 +13,8 @@
 * Alcohol intake | Subjective Feature | alco | binary |
 * Physical activity | Subjective Feature | active | binary |
 * Presence or absence of cardiovascular disease | Target Variable | cardio | binary | 
+
+## Models tested
+* Random Forest Classifier
+* SMOTEENN
+* SMOTE Oversampling
