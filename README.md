@@ -5,24 +5,24 @@
 ## Data Cleansing in ETL Tools
 
  - This project will be an introduction ot the EXTRACT, TRANSFORM, and LOAD process.
-
  - Using the ETL process to clean data. The ETL function will be created to collect and cleans cardio data.
-
  - Pandas will be used to clean the data and perform exploratory analysis.
-
+ - Using jupyter notebook and the running cvs file dataframe
+ - Check column
 
 ## Database
 
- - PostgreSQL is the database we will intend to use, and we will integrate Amazon RDS (Relational Database Service) web service , Heart Dataset , Sample Dataset
-Database instance , Amazon RDS PostgreSQL DB instance to display the data.
-
+ - PostgreSQL is the database we want to to use, and the options we have are:
+ 1. to create a PorstgreSQL database locally, or
+ 2. to create it on AWS (Amazon RDS (Relational Database Service) web service.
+ 
+ We will use pgAdmin to manage the database and tables.
 
 ## Machine Learning
 
 - SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is Random Forest Classifier
-- SMOTEENN
-- SMOTE Oversampling
+- Methods we will use are SMOTEENN and SMOTE Oversampling 
 
 ## Dashboard
 
-- It will be hosted on Tableau dashboard
+- In addition to using a Tableau, we can also use flask template with integrated D3.js for a fully functioning and interactive dashboard.
