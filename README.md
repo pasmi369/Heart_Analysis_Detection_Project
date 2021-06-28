@@ -14,8 +14,7 @@
 ## Database
 
  - PostgreSQL is the database we will intend to use, and we will integrate Amazon RDS (Relational Database Service) web service , Heart Dataset , Sample Dataset
-
- Database instance , Amazon RDS PostgreSQL DB instance to display the data.
+Database instance , Amazon RDS PostgreSQL DB instance to display the data.
 
 
 ## Machine Learning
