@@ -2,7 +2,7 @@
 
 ### Data Description:
 | Feature Name | Feature Type | Name in Data | Data type & unit | Calculated column |
-|----------|--------|-------|---------|---------|
+|---------|---------|---------|---------|--------|
 | Age | Objective Feature | age | int (days)
 | Age in years | Objective Feature | age_year | int (years)| Calculated column |
 | Age Range | Objective Feature | age_range | categorical code | Calculated column |
