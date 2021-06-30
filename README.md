@@ -1,7 +1,7 @@
 # Heart_Analysis_Detection_Project
 
 ### Data Description:
-| Feature Name | Included in Model  | Name in Data | Data type & units | Calculated column |
+| Feature Name | Included in Model  | Name in Data | Data type & units | Column Type |
 |---------|---------|---------|---------|--------|
 | Age | No | age | int (days) |
 | Age in years | No | age_year | int (years)| Calculated column |
