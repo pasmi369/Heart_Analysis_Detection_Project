@@ -2,7 +2,7 @@
 
 - Heart disease describes a range of conditions that affect your heart. Diseases under the heart disease umbrella include blood vessel diseases, such as coronary artery disease, heart rhythm problems (arrhythmias) and heart defects you’re born with (congenital heart defects), among others.
  
-![cardiovascular_system](./Resources/cardiovascular_system.png)
+![cardiovascular_system](./Resources/cardiovascular_system.jpeg)
 
 - The term “heart disease” is often used interchangeably with the term “cardiovascular disease”. Cardiovascular disease generally refers to conditions that involve narrowed or blocked blood vessels that can lead to a heart attack, chest pain (angina) or stroke. 
 - According to a news article, heart disease proves to be the leading cause of death for both women and men. The article states the following :
@@ -11,7 +11,7 @@
   - Coronary Heart Disease(CHD) is the most common type of heart disease, killing over 370,000 people annually.
   - Every year about 735,000 Americans have a heart attack. Of these, 525,000 are a first heart attack and 210,000 happen in people who have already had a heart attack.
 
-![heart_valves](./Resources/heart_valves.png)
+![heart_valves](./Resources/heart_valves.jpeg)
 
 ## Goal:
 - Predict whether a patient should be diagnosed with Heart Disease. This is a binary outcome.
