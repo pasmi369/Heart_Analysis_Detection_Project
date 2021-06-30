@@ -15,7 +15,7 @@
 | Gender | Yes: Objective Feature | gender | categorical code |
 | Systolic blood pressure | No| ap_hi | int |
 | Systolic blood pressure Status | No | ap_hi_status | categorical code | Calculated column |
-| Systolic blood pressure Status Encoded | Yes: Examination Feature | ap_hi_status_encoded | 0: normal, 1: elevated, 2: high_blood_pressure_1, 3: high_blood_pressure_2,4: hypertensive_crisis | Encoded |
+| Systolic blood pressure Status Encoded | Yes: Examination Feature | ap_hi_status_encoded | 0: normal, 1: elevated, 2: high_blood_pressure_1, 3: high_blood_pressure_2, 4: hypertensive_crisis | Encoded |
 | Diastolic blood pressure | No| ap_lo | int |
 | Diastolic blood pressure Status | No | ap_lo_status | categorical code | Calculated column |
 | Diastolic blood pressure Status Encoded | Yes: Examination Feature | ap_lo_status_encoded | 0 : normal, 1: high_blood_pressure_1, 2: high_blood_pressure_2, 3: hypertensive_crisis | Encoded |
