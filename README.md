@@ -11,7 +11,7 @@
 | Weight | No| weight | float (kg) |
 | BMI | No | bmi | int | Calculated column |
 | BMI Status | No | bmi_status | categorical code | Calculated column |
-| BMI Status Encoded | Yes: Objective Feature | bmi_status_encoded | 0: underweight, 1: healthy, 2: overweight, 3: "obese" | Encoded |
+| BMI Status Encoded | Yes: Objective Feature | bmi_status_encoded | 0: underweight, 1: healthy, 2: overweight, 3: obese | Encoded |
 | Gender | Yes: Objective Feature | gender | categorical code |
 | Systolic blood pressure | No| ap_hi | int |
 | Systolic blood pressure Status | No | ap_hi_status | categorical code | Calculated column |
