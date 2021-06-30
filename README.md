@@ -4,8 +4,8 @@
 | Feature Name | Feature Type | Name in Data | Data type & unit | Calculated column |
 |----------|--------|-------|---------|---------|
 | Age | Objective Feature | age | int (days)
-| Age in years | Objective Feature | age in years | int (years)| Calculated column |
-| Age Range | Objective Feature | age ranges | categorical code | Calculated column |
+| Age in years | Objective Feature | age_year | int (years)| Calculated column |
+| Age Range | Objective Feature | age_range | categorical code | Calculated column |
 | Height | Objective Feature | height | int (cm) |
 | Weight | Objective Feature | weight | float (kg) |
 | BMI | Objective Feature | bmi | int | Calculated column |
