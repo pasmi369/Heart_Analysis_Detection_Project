@@ -38,4 +38,33 @@ The targest value counts are equal to 0: 34753 and 1: 33394. The data was split 
   * ![ee_test_accuracy.png](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/MachineLearning/Resources/ee_test_accuracy.png)
 
 ## Model Trained
+Two models were chosen to optimize and train: Balanced Random Forest Classifier and SMOTE Oversampling.
 ### Optimization of the Model
+The goal for optimizing the models was to reach at least 75% accuracy. 
+* General optimization occured in editing the split between the training and the testing set.
+    `<# Starting split
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, train_size=0.7, test_size=0.3, stratify=y)
+    # Optimization try 1.1
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, train_size=0.8, test_size=0.2, stratify=y)
+    # Optimization try 1.2
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, stratify=y)>`
+* Balanced Random Forest Classifier
+`<# Starting Classifier
+brf_model = BalancedRandomForestClassifier(n_estimators=150, random_state=1)
+# Optimization try 2.1
+brf_model = BalancedRandomForestClassifier(n_estimators=175, random_state=10)
+# Optimization try 2.2
+brf_model = BalancedRandomForestClassifier(n_estimators=160, random_state=1, n_samples=500)>`
+* SMOTE Oversampling
+`<# Starting Resample
+smote = SMOTE(random_state=1)
+# Optimization try 3.1
+smote = SMOTE(random_state=42)
+# Optimization try 3.2
+smote = SMOTE(random_state=42, n_samples=500)>`
+### Final Optimization Settings
+## Final Model Accuracy
+* Balanced Random Forest Classifier
+ * [put accuracy png here]
+* SMOTE Oversampling
+ * [put accuracy png here]
