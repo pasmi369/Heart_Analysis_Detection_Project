@@ -1,5 +1,4 @@
 # Heart_Analysis_Detection_Project
-
 - Heart disease describes a range of conditions that affect your heart. Diseases under the heart disease umbrella include blood vessel diseases, such as coronary artery disease, heart rhythm problems (arrhythmias) and heart defects you’re born with (congenital heart defects), among others.
  
 ![cardiovascular_system](./Resources/cardiovascular_system.jpeg)
@@ -24,6 +23,12 @@
 
 - Determine which features are most important to Positive/Negative Heart Disease diagnosis.
 
+## Project Introduction
+### Communication Protocols
+* Slack - used for write communication 
+* GoogleDrive - file sharing
+* GitHub - code sharing
+* Zoom - web meeting
 
 ## ETL Process
 ### Columns to create:
