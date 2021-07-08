@@ -74,6 +74,7 @@ smote = SMOTE(random_state=20)
  * Regaredless of the changes to the balanced random forest classifier the accuracy seems to be capped at 0.716.
  * The table below lists the top five features by importance. The feature importance did not change during the optimization.
 | Percentage | Feature |
+|---------|---------|
 | 0.1898 | ap_hi_status_encoded_3 |
 | 0.1228 | ap_lo_status_encoded_2 |
 | 0.0770 | ap_hi_status_encoded_1 |
@@ -88,4 +89,5 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, train_
 smote = SMOTE(random_state=1)
 ```
 ## Machine Learning Conclusion
-The optimization goal of 75% was not meet. The dataset appears to be maxed out at an accuracy of 0.716 for the Balanced Random Forest classifier and around 0.724 for SMOTE Oversampling. THe most important feature in the accuracte prediction of cardiovascular desisease is ap_hi_status_encoded_3 which represents Systolic blood pressure in the high blood pressure status 2 range, this is the range before a hypertensive crisis which is a heart attack. 
+1. The optimization goal of 75% was not meet. The dataset appears to be maxed out at an accuracy of 0.716 for the Balanced Random Forest classifier and around 0.724 for SMOTE Oversampling. 
+2. The most important feature in the accuracte prediction of cardiovascular desisease is ap_hi_status_encoded_3 which represents Systolic blood pressure in the high blood pressure status 2 range, this is the range before a hypertensive crisis which is a heart attack. 
