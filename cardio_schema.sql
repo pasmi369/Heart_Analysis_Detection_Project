@@ -1,8 +1,9 @@
-DROP TABLE IF EXISTS patient_table;
+
 DROP TABLE IF EXISTS health_factors_table;
 DROP TABLE IF EXISTS lifestyle_table;
 DROP TABLE IF EXISTS calculated_table;
 DROP TABLE IF EXISTS patient_table;
+
 -- *****************
 --  patient_table
 -- *****************
