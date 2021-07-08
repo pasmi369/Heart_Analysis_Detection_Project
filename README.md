@@ -57,7 +57,7 @@ brf_model = BalancedRandomForestClassifier(n_estimators=150, random_state=1)
 # Optimization try 2.1
 brf_model = BalancedRandomForestClassifier(n_estimators=175, random_state=10)
 # Optimization try 2.2
-brf_model = BalancedRandomForestClassifier(n_estimators=160, random_state=1, n_samples=500)
+brf_model = BalancedRandomForestClassifier(n_estimators=200, random_state=1)
 ```
 * SMOTE Oversampling
 ```python
@@ -66,7 +66,7 @@ smote = SMOTE(random_state=1)
 # Optimization try 3.1
 smote = SMOTE(random_state=42)
 # Optimization try 3.2
-smote = SMOTE(random_state=42, n_samples=500)
+smote = SMOTE(random_state=20)
 ```
 ### Final Optimization Settings
 ## Final Model Accuracy
