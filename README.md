@@ -26,6 +26,7 @@
 | Physical activity | Yes: Subjective Feature | active | binary |
 | Presence or absence of cardiovascular disease | Target Variable | cardio | binary | 
 
+# Machine Learning
 ## Models tested
 The targest value counts are equal to 0: 34753 and 1: 33394. The data was split into testing and training sets with random_state=1, train_size=0.7, test_size=0.3, stratify=y. 
 * Balanced Random Forest Classifier
@@ -68,9 +69,23 @@ smote = SMOTE(random_state=42)
 # Optimization try 3.2
 smote = SMOTE(random_state=20)
 ```
-### Final Optimization Settings
-## Final Model Accuracy
+### Final Model Optimization Settings & Accuracy
 * Balanced Random Forest Classifier
- * [put accuracy png here]
+ * Regaredless of the changes to the balanced random forest classifier the accuracy seems to be capped at 0.716.
+ * The table below lists the top five features by importance. The feature importance did not change during the optimization.
+ * | Percentage | Feature |
+ * | 0.1898 | ap_hi_status_encoded_3 |
+ * | 0.1228 | ap_lo_status_encoded_2 |
+ * | 0.0770 | ap_hi_status_encoded_1 |
+ * | 0.0731 | ap_hi_status_encoded_0 |
+ * | 0.0481 | cholesterol_3 |
 * SMOTE Oversampling
- * [put accuracy png here]
+ *  The highest accuacy for SMOTE Oversampling was 0.724 with code below. 
+```python
+# Optimization try 1.1
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1, train_size=0.8, test_size=0.2, stratify=y)
+# Starting Resample
+smote = SMOTE(random_state=1)
+```
+## Machine Learning Conclusion
+The dataset appears to be maxed out at an accuracy of 0.716 for the Balanced Random Forest classifier and around 0.724 for SMOTE Oversampling. THe most important feature in the accuracte prediction of cardiovascular desisease is ap_hi_status_encoded_3 which represents Systolic blood pressure in the high blood pressure status 2 range, this is the range before a hypertensive crisis which is a heart attack. 
