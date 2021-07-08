@@ -70,7 +70,7 @@ smote = SMOTE(random_state=42)
 smote = SMOTE(random_state=20)
 ```
 ### Final Model Optimization Settings & Accuracy
-* Balanced Random Forest Classifier
+Balanced Random Forest Classifier
  * Regaredless of the changes to the balanced random forest classifier the accuracy seems to be capped at 0.716.
  * The table below lists the top five features by importance. The feature importance did not change during the optimization.
 
@@ -82,7 +82,7 @@ smote = SMOTE(random_state=20)
 | 0.0731 | ap_hi_status_encoded_0 |
 | 0.0481 | cholesterol_3 |
 
-* SMOTE Oversampling
+SMOTE Oversampling
  *  The highest accuacy for SMOTE Oversampling was 0.724 with code below. 
 ```python
 # Optimization try 1.1
