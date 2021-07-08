@@ -1,32 +1,64 @@
-CREATE TABLE patient_table (
-  patient_id INT PRIMARY KEY NOT NULL UNIQUE,
-  age      INT,    -- in days
-  gender   INT,
-  height   INT,
-  p_weight INT,
-  cardio   INT
+DROP TABLE IF EXISTS patient_table;
+DROP TABLE IF EXISTS health_factors_table;
+DROP TABLE IF EXISTS lifestyle_table;
+DROP TABLE IF EXISTS calculated_table;
+-- *****************
+--  patient_table
+-- *****************
+CREATE TABLE patient_table(
+    patient_id NUMERIC NOT NULL, 
+    age   NUMERIC NOT NULL,
+    gender NUMERIC NOT NULL,
+    height NUMERIC NOT NULL,
+    weight NUMERIC NOT NULL,
+    cardio NUMERIC NOT NULL,
+    PRIMARY KEY (patient_id)
 );
-
-CREATE TABLE health_factors_table (
-  patient_id INT PRIMARY KEY NOT NULL UNIQUE,
-  ap_hi        INT ,   
-  ap_lo        INT,
-  cholesterol  INT,
-  gluc         INT
+-- ***********************
+--  health_factors_table
+-- ***********************
+CREATE TABLE health_factors_table(
+    hf_id    INT GENERATED ALWAYS AS IDENTITY,
+    patient_id NUMERIC   NOT NULL,
+    ap_hi       NUMERIC  NOT NULL,
+    ap_lo       NUMERIC  NOT NULL,
+    cholesterol  NUMERIC NOT NULL,
+    gluc       NUMERIC   NOT NULL,
+    PRIMARY KEY (hf_id),
+    FOREIGN KEY (patient_id)
+    REFERENCES patient_table(patient_id)
+    on DELETE CASCADE
+    ON UPDATE CASCADE
 );
-
-CREATE TABLE lifestyle_table (
-  patient_id INT PRIMARY KEY NOT NULL UNIQUE,
-  smoke      INT,
-  alchol     INT,
-  active     INT
+-- *****************
+-- lifestyle_table
+-- *****************
+CREATE TABLE  lifestyle_table(
+    ls_ID  INT   GENERATED ALWAYS AS IDENTITY,
+    patient_id NUMERIC   NOT NULL,
+    smoke  NUMERIC       NOT NULL,
+    alco   NUMERIC       NOT NULL,
+    active NUMERIC       NOT NULL,
+    PRIMARY KEY (ls_id),
+    FOREIGN KEY (patient_id)
+    REFERENCES patient_table(patient_id)
+    on DELETE CASCADE
+    ON UPDATE CASCADE
 );
-CREATE TABLE calculated_table (
-  patient_id INT PRIMARY KEY NOT NULL UNIQUE,
-  age_year   SMALLINT,
-  AGE_GROUP  VARCHAR,
-  BMI        NUMERIC(3,2),
-  BMI_GROUP  VARCHAR
+-- ******************
+-- calculated_table 
+-- ******************
+CREATE TABLE calculated_table(
+    calc_id     INT         GENERATED ALWAYS AS IDENTITY,
+    patient_id  NUMERIC       NOT NULL,
+    age_year    NUMERIC       NOT NULL,
+    age_group   VARCHAR       NOT NULL,
+    bmi         NUMERIC(5,2)  NOT NULL,
+    bmi_range   VARCHAR       NOT NULL,
+    PRIMARY KEY (calc_id),
+    FOREIGN KEY (patient_id)
+    REFERENCES patient_table(patient_id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
 
 );
-
