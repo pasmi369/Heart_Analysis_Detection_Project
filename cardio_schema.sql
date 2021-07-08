@@ -2,6 +2,7 @@ DROP TABLE IF EXISTS patient_table;
 DROP TABLE IF EXISTS health_factors_table;
 DROP TABLE IF EXISTS lifestyle_table;
 DROP TABLE IF EXISTS calculated_table;
+DROP TABLE IF EXISTS patient_table;
 -- *****************
 --  patient_table
 -- *****************
@@ -27,7 +28,6 @@ CREATE TABLE health_factors_table(
     PRIMARY KEY (hf_id),
     FOREIGN KEY (patient_id)
     REFERENCES patient_table(patient_id)
-    on DELETE CASCADE
     ON UPDATE CASCADE
 );
 -- *****************
@@ -42,7 +42,6 @@ CREATE TABLE  lifestyle_table(
     PRIMARY KEY (ls_id),
     FOREIGN KEY (patient_id)
     REFERENCES patient_table(patient_id)
-    on DELETE CASCADE
     ON UPDATE CASCADE
 );
 -- ******************
@@ -58,7 +57,5 @@ CREATE TABLE calculated_table(
     PRIMARY KEY (calc_id),
     FOREIGN KEY (patient_id)
     REFERENCES patient_table(patient_id)
-    ON DELETE CASCADE
     ON UPDATE CASCADE
-
 );
