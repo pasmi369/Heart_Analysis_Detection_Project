@@ -30,6 +30,7 @@ CREATE TABLE health_factors_table(
     FOREIGN KEY (patient_id)
     REFERENCES patient_table(patient_id)
     ON UPDATE CASCADE
+    ON DELETE CASCADE
 );
 -- *****************
 -- lifestyle_table
@@ -44,6 +45,7 @@ CREATE TABLE  lifestyle_table(
     FOREIGN KEY (patient_id)
     REFERENCES patient_table(patient_id)
     ON UPDATE CASCADE
+    ON DELETE CASCADE
 );
 -- ******************
 -- calculated_table 
@@ -59,4 +61,5 @@ CREATE TABLE calculated_table(
     FOREIGN KEY (patient_id)
     REFERENCES patient_table(patient_id)
     ON UPDATE CASCADE
+    ON DELETE CASCADE
 );
