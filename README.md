@@ -29,7 +29,7 @@
 * GitHub - code sharing
 * Zoom - web meeting
 
-### Database
+# Database
 - **Relational Database System:** PostgreSQL
 - **Database server:** Amazon RDS (Relational Database Service) web service
 
