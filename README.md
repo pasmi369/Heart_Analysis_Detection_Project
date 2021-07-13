@@ -1,4 +1,5 @@
 # Heart_Analysis_Detection_Project
+
 ## Introduction
 - Heart disease describes a range of conditions that affect your heart. Diseases under the heart disease umbrella include blood vessel diseases, such as coronary artery disease, heart rhythm problems (arrhythmias) and heart defects you’re born with (congenital heart defects), among others.
  
@@ -27,6 +28,22 @@
 * GoogleDrive - file sharing
 * GitHub - code sharing
 * Zoom - web meeting
+
+# Database
+- **Relational Database System:** PostgreSQL
+- **Database server:** Amazon RDS (Relational Database Service) web service
+
+### Heart Dataset 
+[Sample Dataset](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/heart_database/sample.csv)
+
+### Database instance
+ Amazon RDS PostgreSQL DB instance 
+
+![alt tag](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/heart_database/DBInstance.PNG)
+
+### Database ERD
+
+![ERD](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/heart_database/cardio_ERD.png)
 
 # ETL Process
 ### Columns to create:
