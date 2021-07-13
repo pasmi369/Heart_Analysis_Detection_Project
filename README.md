@@ -86,13 +86,13 @@
 ## Models tested
 The targest value counts are equal to 0: 34753 and 1: 33394. The data was split into testing and training sets with random_state=1, train_size=0.7, test_size=0.3, stratify=y. 
 * Balanced Random Forest Classifier
-  * ![brf_test_accuracy.png](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/MachineLearning/Resources/brf_test_accuracy.png)
+  * ![brf_test_accuracy.png](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/Resources/brf_test_accuracy.png)
 * SMOTEENN
-  * ![SMOTEENN_test_accuracy.png](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/MachineLearning/Resources/SMOTEENN_test_accuracy.png)
+  * ![SMOTEENN_test_accuracy.png](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/Resources/SMOTEENN_test_accuracy.png)
 * SMOTE Oversampling
-  * ![SMOTE_Oversampling_test](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/MachineLearning/Resources/SMOTE_Oversampling_test_accuracy.png)
+  * ![SMOTE_Oversampling_test](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/Resources/SMOTE_Oversampling_test_accuracy.png)
 * Easy Ensemble Classifier
-  * ![ee_test_accuracy.png](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/MachineLearning/Resources/ee_test_accuracy.png)
+  * ![ee_test_accuracy.png](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/Resources/ee_test_accuracy.png)
 
 ## Model Trained
 Two models were chosen to optimize and train: Balanced Random Forest Classifier and SMOTE Oversampling.
