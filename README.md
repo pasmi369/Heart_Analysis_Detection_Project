@@ -77,25 +77,27 @@ In the image "The Number Of The Testers in the Study" it shows the.....
 
 In the picture "The Number Of The Testers By Gender" shows the.....
 
--picture
+![Number Of Testers By Age Group](NumberOfTestersByAgeGroup.png.svg.png)
 
 The picture "Number Of Testers By Age Group" shows the.......
 
--picture
+![Number of Testers by Ages](NumberofTestersbyAges.png.svg.png)
 
 The picture "Number of Testers by Ages" shows the.....
 
-picture
+![Cardio Status](CardioStatus.png.svg.png)
 
 The picture "Cardio Status" shows the
 
-picture
+![Systolic Blood Pressure](SystolicBloodPressure.png.svg.png)
+
 
 The picture "Systolic Blood Pressure" shows the 
 
-The picyure "Diastolik Blood Pressure 60-80 by Age Group" shows the....
+![Diastolik Blood Pressure 60-80 by Age Group](DiastolikBloodPressure6080byAgeGroup.png.svg.png)
 
-picture
+The picture "Diastolik Blood Pressure 60-80 by Age Group" shows the....
+
 
 
 Summary
