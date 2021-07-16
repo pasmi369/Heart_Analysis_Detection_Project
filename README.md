@@ -14,6 +14,14 @@
 
 ![heart_valves](./Resources/heart_valves.jpeg)
 
+## Data Citation:
+
+File cardio_train was downloaded from Kaggle.com site.
+
+Link:https://www.kaggle.com/sulianova/cardiovascular-disease-dataset/
+
+Using Python and Pandas functions, the "age" column was converted from days to year.
+
 ## Goal:
 - Predict whether a patient should be diagnosed with Heart Disease. This is a binary outcome.
   - Positive (+) = 1, patient diagnosed with Heart Disease.
