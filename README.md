@@ -65,7 +65,10 @@
 | Physical activity | Yes: Subjective Feature | active | binary |
 | Presence or absence of cardiovascular disease | Target Variable | cardio | binary | 
 
+# DASHBOARD
+
 ## Overview of the analysis
+
  - The purpose for this analysis is to examine the ....
 
 - picture testers in the study
@@ -100,7 +103,7 @@ The picture "Diastolik Blood Pressure 60-80 by Age Group" shows the....
 
 
 
-Summary
+## Summary
 
 
 # Machine Learning
