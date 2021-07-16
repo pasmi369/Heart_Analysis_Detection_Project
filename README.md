@@ -47,11 +47,10 @@ Using Python and Pandas functions, the "age" column was converted from days to y
 ### Database instance
  Amazon RDS PostgreSQL DB instance 
 
-![alt tag](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/DBInstance.PNG)
-
+![DB instance](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/Resources/DBInstance.PNG)
 ### Database ERD
 
-![ERD](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/heart_database/cardio_ERD.png)
+![ERD](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/Resources/cardio_ERD.png)
 
 # ETL Process
 ### Columns to create:
