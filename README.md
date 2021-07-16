@@ -150,4 +150,5 @@ smote = SMOTE(random_state=1)
 1. The optimization goal of 75% was not meet. The dataset appears to be maxed out at an accuracy of 0.716 for the Balanced Random Forest classifier and around 0.724 for SMOTE Oversampling. 
 2. The most important feature in the accuracte prediction of cardiovascular desisease is ap_hi_status_encoded_3 which represents Systolic blood pressure in the high blood pressure status 2 range, this is the range before a hypertensive crisis also known as a heart attack. 🔗[Reference Link for blood pressure readings](https://www.healthline.com/health/high-blood-pressure-hypertension/blood-pressure-reading-explained)
 
-
+### Goggle Slides Visualization:
+https://docs.google.com/presentation/d/1wC4Z6J3wo4ZfXfJyx2zz43giqm-zS1Ym/edit#slide=id.p1
