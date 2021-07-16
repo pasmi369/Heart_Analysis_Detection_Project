@@ -73,7 +73,8 @@
 
 In the image "The Number Of The Testers in the Study" it shows the.....
 
-![Number of The Tester Study](Number of Tester Study.png)
+![Number of The Tester Study](NumberofTesterStudy.png)
+
 In the picture "The Number Of The Testers By Gender" shows the.....
 
 -picture
