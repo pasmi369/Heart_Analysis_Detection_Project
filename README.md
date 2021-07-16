@@ -41,8 +41,11 @@ Using Python and Pandas functions, the "age" column was converted from days to y
 - **Relational Database System:** PostgreSQL
 - **Database server:** Amazon RDS (Relational Database Service) web service
 
-### Heart Dataset 
-[Sample Dataset](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/sample.csv)
+### Source Datasets 
+
+[Heart Dataset](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/Resources/cardio.csv)
+
+[Sample Dataset](https://github.com/pasmi369/Heart_Analysis_Detection_Project/blob/main/Resources/sample.csv)
 
 ### Database instance
  Amazon RDS PostgreSQL DB instance 
