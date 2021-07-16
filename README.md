@@ -65,6 +65,42 @@
 | Physical activity | Yes: Subjective Feature | active | binary |
 | Presence or absence of cardiovascular disease | Target Variable | cardio | binary | 
 
+## Overview of the analysis
+ - The purpose for this analysis is to examine the ....
+
+- picture testers in the study
+
+
+In the image "The Number Of The Testers in the Study" it shows the.....
+
+- picture 
+
+In the picture "The Number Of The Testers By Gender" shows the.....
+
+-picture
+
+The picture "Number Of Testers By Age Group" shows the.......
+
+-picture
+
+The picture "Number of Testers by Ages" shows the.....
+
+picture
+
+The picture "Cardio Status" shows the
+
+picture
+
+The picture "Systolic Blood Pressure" shows the 
+
+The picyure "Diastolik Blood Pressure 60-80 by Age Group" shows the....
+
+picture
+
+
+Summary
+
+
 # Machine Learning
 ## Models tested
 The targest value counts are equal to 0: 34753 and 1: 33394. The data was split into testing and training sets with random_state=1, train_size=0.7, test_size=0.3, stratify=y. 
