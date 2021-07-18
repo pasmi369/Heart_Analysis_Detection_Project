@@ -101,13 +101,10 @@ Number of Tester By Age Group.png
 
 The picture "Number Of Testers By Age Group" shows the female and male by ages count of cardio. The most notable attributes for those male 50-59 number of cardio 34,589, this indicates that for those who were male, these features were strongly presented.
 
-![Number of Testers by Ages](Number%20ofTesters%20by%20Ages.png) 
-
 
 
 ![Cardio Status](Cardio%20Status%20by%20Gender.png)
 
-The picture "Cardio Status" shows the
 
 ![Systolic Blood Pressure](SystolicBloodPresure.png)
 
@@ -115,8 +112,6 @@ The picture "Cardio Status" shows the
 The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 is going high
 
 ![Diastolik Blood Pressure 60-80 by Age Group](DiastolicBloodPressure6080byAgeGroup.png)
-
-The picture "Diastolik Blood Pressure 60-80 by Age Group" shows the....
 
 
 
