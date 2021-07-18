@@ -103,7 +103,7 @@ The picture "Number Of Testers By Age Group" shows the female and male by ages c
 
 ![Number of Testers by Ages](Number%20ofTesters%20by%20Ages.png) 
 
-The picture "Number of Testers by Ages" shows how is clear that 
+
 
 ![Cardio Status](Cardio%20Status%20by%20Gender.png)
 
@@ -112,7 +112,7 @@ The picture "Cardio Status" shows the
 ![Systolic Blood Pressure](SystolicBloodPresure.png)
 
 
-The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 
+The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 is going high
 
 ![Diastolik Blood Pressure 60-80 by Age Group](DiastolicBloodPressure6080byAgeGroup.png)
 
