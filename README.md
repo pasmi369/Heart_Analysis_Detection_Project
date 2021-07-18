@@ -69,21 +69,21 @@
 
 ## Overview of the analysis
 
- - The purpose for this analysis is to examine the  femaleheart detection.The project is made to predict heart disease analysis using machine learning algorithms and to analysis using visualization. project implemented three machine lerning model using sklearn.
- - Only 12 feature used:
- - Active 
- - Alco
- - Ap hi
- - Aplo 
- - Bmi
- - Cardio
- - Coestrol 
- - Gender 
- - Gluc
- - Heigh 
- - Smoke
- - Weight 
- - Age
+ -Cardiovascular disease is the leading cause of death throughout the United States, with an estimated 840,768 deaths in 2016. However, through simple lifestyle changes and screening, nearly 200,000 deaths per year could be avoided The purpose for this analysis is to examine the  female heart detection.The project is made to predict heart disease analysis using machine learning algorithms and to analysis using visualization. Project implemented three machine lerning model using sklearn.
+ 11 features (4 demographic, 4 examination, and 3 social history):
+
+Age (demographic)
+Height (demographic)
+Weight (demographic)
+Gender (demographic)
+Systolic blood pressure (examination)
+Diastolic blood pressure (examination)
+Cholesterol (examination)
+Glucose (examination)
+Smoking (social history)
+Alcohol intake (social history)
+Physical activity (social history)
+Some features are numerical, others are assigned categorical codes, and others are binary values. The classes are balanced, but there were more female patients observed than male patients. Further, the continuous-valued features are almost normally distributed; however, most categorical-valued features are skewed towards "normal," as opposed to "high" levels of potentially pathological features.
 
 
 
@@ -104,10 +104,12 @@ The picture "Number Of Testers By Age Group" shows the female and male by ages c
 ![Number of Tester By Age Group.png](Number%20of%20Tester%20By%20Age%20Group.png)
 
 
-
+The picture "Cardio Status (0:Inactive, 1:Active) by Gender" shows 
 
 ![Cardio Status](Cardio%20Status%20by%20Gender.png)
 
+
+The picture "Systolic Blood Pressure" shows 
 
 ![Systolic Blood Pressure](SystolicBloodPresure.png)
 
@@ -120,7 +122,7 @@ The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after th
 
 ## Summary
 
-Heart diseases have become a major concern to deal with as studies show that the number of diseases due to heart diseases have increased significantly over the past few decades, in fact it has become the leading cause of death.Preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate. kaggle project
+The cardiovascular disease dataset is an open-source dataset found on Kaggle.Heart diseases have become a major concern to deal with as studies show that the number of diseases due to heart diseases have increased significantly over the past few decades, in fact it has become the leading cause of death.Preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate. kaggle project
 
 
 # Machine Learning
