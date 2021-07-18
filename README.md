@@ -105,7 +105,7 @@ The picture "Number Of Testers By Age Group" shows the female and male by ages c
 
 The picture "Number of Testers by Ages" shows how is clear that 
 
-![Cardio Status](Cardio Status by Gender.png)
+![Cardio Status](Cardio%20Status%20by%20Gender.png)
 
 The picture "Cardio Status" shows the
 
