@@ -90,28 +90,28 @@
 
 In the image "The Number Of The Testers in the Study" it shows the number of the tester in the study 68.482.
  
-![Number of The Tester Study](NumberofTheTesterStudy.png.svg.png)
+![Number of The Tester Study](NumberofTesterStudy.png)
 
 In the picture "The Number Of The Testers By Gender" shows the cardio status (0:Inactive, 1:Active) by Gender.The majority 44,68 female
 
-![Number Of Testers By Gender](NumberOfTestersByGender.png.svg.png)
+![Number Of Testers By Gender](NumberOfTestersByGender.png)
 
 The picture "Number Of Testers By Age Group" shows the female and male by ages count of cardio. The most notable attributes for those male 50-59 number of cardio 34,589, this indicates that for those who were male, these features were strongly presented.
 
-![Number of Testers by Ages](NumberofTestersbyAges.png.svg.png)
+![Number of Testers by Ages](NumberofTestersbyAges.png)
 
 The picture "Number of Testers by Ages" shows how is clear that 
 
-![Cardio Status](CardioStatus.png.svg.png)
+![Cardio Status](CardioStatus.png)
 
 The picture "Cardio Status" shows the
 
-![Systolic Blood Pressure](SystolicBloodPressure.png.svg.png)
+![Systolic Blood Pressure](SystolicBloodPressure.png)
 
 
 The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 
 
-![Diastolik Blood Pressure 60-80 by Age Group](DiastolikBloodPressure6080byAgeGroup.png.svg.png)
+![Diastolik Blood Pressure 60-80 by Age Group](DiastolikBloodPressure6080byAgeGroup.png)
 
 The picture "Diastolik Blood Pressure 60-80 by Age Group" shows the....
 
