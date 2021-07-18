@@ -92,6 +92,64 @@ Using Python and Pandas functions, the "age" column was converted from days to y
 | Physical activity | Yes: Subjective Feature | active | binary |
 | Presence or absence of cardiovascular disease | Target Variable | cardio | binary | 
 
+# DASHBOARD
+
+## Overview of the analysis
+
+ - The purpose for this analysis is to examine the  femaleheart detection.The project is made to predict heart disease analysis using machine learning algorithms and to analysis using visualization. project implemented three machine lerning model using sklearn.
+ - Only 12 feature used:
+ - Active 
+ - Alco
+ - Ap hi
+ - Aplo 
+ - Bmi
+ - Cardio
+ - Coestrol 
+ - Gender 
+ - Gluc
+ - Heigh 
+ - Smoke
+ - Weight 
+ - Age
+
+
+
+
+In the image "The Number Of The Testers in the Study" it shows the number of the tester in the study 68.482.
+ 
+![Number of The Tester Study](Number%20of%20Tester%20Study.png)
+
+
+In the picture "The Number Of The Testers By Gender" shows the cardio status (0:Inactive, 1:Active) by Gender.The majority Female 44,68
+
+![Number Of Testers By Gender](NumberoftheTestersbyGender.png)
+
+
+
+The picture "Number Of Testers By Age Group" shows the female and male by ages count of cardio. The most notable attributes for those male 50-59 number of cardio 34,589, this indicates that for those who were male, these features were strongly presented.
+
+![Number of Tester By Age Group.png](Number%20of%20Tester%20By%20Age%20Group.png)
+
+
+
+
+![Cardio Status](Cardio%20Status%20by%20Gender.png)
+
+
+![Systolic Blood Pressure](SystolicBloodPresure.png)
+
+
+The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 is going high
+
+![Diastolik Blood Pressure 60-80 by Age Group](DiastolicBloodPressure6080byAgeGroup.png)
+
+
+
+## Summary
+
+Heart diseases have become a major concern to deal with as studies show that the number of diseases due to heart diseases have increased significantly over the past few decades, in fact it has become the leading cause of death.Preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate. kaggle project
+
+
 # Machine Learning
 ## Models tested
 The targest value counts are equal to 0: 34753 and 1: 33394. The data was split into testing and training sets with random_state=1, train_size=0.7, test_size=0.3, stratify=y. 
