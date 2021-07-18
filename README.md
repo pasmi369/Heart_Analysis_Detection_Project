@@ -90,7 +90,8 @@
 
 In the image "The Number Of The Testers in the Study" it shows the number of the tester in the study 68.482.
  
-![Number of The Tester Study](NumberofTesterStudy.png)
+![Number of The Tester Study](Number of Tester Study.png)
+
 
 In the picture "The Number Of The Testers By Gender" shows the cardio status (0:Inactive, 1:Active) by Gender.The majority 44,68 female
 
@@ -104,7 +105,7 @@ The picture "Number Of Testers By Age Group" shows the female and male by ages c
 
 The picture "Number of Testers by Ages" shows how is clear that 
 
-![Cardio Status]("Cardio Status by Gender.png")
+![Cardio Status](Cardio Status by Gender.png)
 
 The picture "Cardio Status" shows the
 
