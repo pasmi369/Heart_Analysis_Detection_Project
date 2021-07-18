@@ -97,7 +97,7 @@ In the picture "The Number Of The Testers By Gender" shows the cardio status (0:
 
 ![Number Of Testers By Gender](NumberoftheTestersbyGender.png)
 
-Number of Tester By Age Group.png
+
 
 The picture "Number Of Testers By Age Group" shows the female and male by ages count of cardio. The most notable attributes for those male 50-59 number of cardio 34,589, this indicates that for those who were male, these features were strongly presented.
 
