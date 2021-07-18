@@ -111,7 +111,7 @@ The picture "Cardio Status" shows the
 
 The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 
 
-![Diastolik Blood Pressure 60-80 by Age Group](DiastolikBloodPressure6080byAgeGroup.png)
+![Diastolik Blood Pressure 60-80 by Age Group](DiastolicBloodPressure6080byAgeGroup.png)
 
 The picture "Diastolik Blood Pressure 60-80 by Age Group" shows the....
 
