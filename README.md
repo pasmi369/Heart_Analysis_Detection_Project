@@ -93,13 +93,16 @@ In the image "The Number Of The Testers in the Study" it shows the number of the
 ![Number of The Tester Study](Number%20of%20Tester%20Study.png)
 
 
-In the picture "The Number Of The Testers By Gender" shows the cardio status (0:Inactive, 1:Active) by Gender.The majority 44,68 female
+In the picture "The Number Of The Testers By Gender" shows the cardio status (0:Inactive, 1:Active) by Gender.The majority Female 44,68
 
 ![Number Of Testers By Gender](NumberoftheTestersbyGender.png)
 
 
 
 The picture "Number Of Testers By Age Group" shows the female and male by ages count of cardio. The most notable attributes for those male 50-59 number of cardio 34,589, this indicates that for those who were male, these features were strongly presented.
+
+![Number Of Testers By Gender](Numbered %20of%20Tester%20y%20Age%20Group.png
+
 
 
 
