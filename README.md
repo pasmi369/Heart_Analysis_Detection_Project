@@ -69,24 +69,38 @@
 
 ## Overview of the analysis
 
- - The purpose for this analysis is to examine the ....
+ - The purpose for this analysis is to examine the  femaleheart detection.The project is made to predict heart disease analysis using machine learning algorithms and to analysis using visualization. project implemented three machine lerning model using sklearn.
+ - Only 12 feature used:
+ - Active 
+ - Alco
+ - Ap hi
+ - Aplo 
+ - Bmi
+ - Cardio
+ - Coestrol 
+ - Gender 
+ - Gluc
+ - Heigh 
+ - Smoke
+ - Weight 
+ - Age
 
-- picture testers in the study
 
 
-In the image "The Number Of The Testers in the Study" it shows the.....
 
+In the image "The Number Of The Testers in the Study" it shows the number of the tester in the study 68.482.
+ 
 ![Number of The Tester Study](NumberofTheTesterStudy.png.svg.png)
 
-In the picture "The Number Of The Testers By Gender" shows the.....
+In the picture "The Number Of The Testers By Gender" shows the cardio status (0:Inactive, 1:Active) by Gender.The majority 44,68 female
 
-![Number Of Testers By Age Group](NumberOfTestersByAgeGroup.png.svg.png)
+![Number Of Testers By Gender](NumberOfTestersByGender.png.svg.png)
 
-The picture "Number Of Testers By Age Group" shows the.......
+The picture "Number Of Testers By Age Group" shows the female and male by ages count of cardio. The most notable attributes for those male 50-59 number of cardio 34,589, this indicates that for those who were male, these features were strongly presented.
 
 ![Number of Testers by Ages](NumberofTestersbyAges.png.svg.png)
 
-The picture "Number of Testers by Ages" shows the.....
+The picture "Number of Testers by Ages" shows how is clear that 
 
 ![Cardio Status](CardioStatus.png.svg.png)
 
@@ -95,7 +109,7 @@ The picture "Cardio Status" shows the
 ![Systolic Blood Pressure](SystolicBloodPressure.png.svg.png)
 
 
-The picture "Systolic Blood Pressure" shows the 
+The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 
 
 ![Diastolik Blood Pressure 60-80 by Age Group](DiastolikBloodPressure6080byAgeGroup.png.svg.png)
 
@@ -104,6 +118,8 @@ The picture "Diastolik Blood Pressure 60-80 by Age Group" shows the....
 
 
 ## Summary
+
+Heart diseases have become a major concern to deal with as studies show that the number of diseases due to heart diseases have increased significantly over the past few decades, in fact it has become the leading cause of death.Preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate. kaggle project
 
 
 # Machine Learning
