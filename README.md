@@ -109,7 +109,7 @@ The picture "Number of Testers by Ages" shows how is clear that
 
 The picture "Cardio Status" shows the
 
-![Systolic Blood Pressure](Systolic%20Blood%20Pressure.png)
+![Systolic Blood Pressure](SystolicBloodPresure.png)
 
 
 The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 
