@@ -109,7 +109,7 @@ The picture "Cardio Status (0:Inactive, 1:Active) by Gender" shows
 ![Cardio Status](Cardio%20Status%20by%20Gender.png)
 
 
-The picture "Systolic Blood Pressure" shows 
+The picture "Systolic Blood Pressure" shows how is getting high after 40s age
 
 ![Systolic Blood Pressure](SystolicBloodPresure.png)
 
