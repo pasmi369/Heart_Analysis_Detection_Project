@@ -114,7 +114,7 @@ The picture "Systolic Blood Pressure" shows how is getting high after 40s age
 ![Systolic Blood Pressure](SystolicBloodPresure.png)
 
 
-The picture "Systolic Blood Pressure" shows the (90 - 120) by Age Group after the 40 is going high
+The picture "Diastolic Blood Pressure (60-80)by Age Group" shows 
 
 ![Diastolik Blood Pressure 60-80 by Age Group](DiastolicBloodPressure6080byAgeGroup.png)
 
